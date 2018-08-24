@@ -3,17 +3,20 @@
     "description": "Polymorphic Authentication for Laravel",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel","authentication", "auth", "polymorhic", "polymorhism", "driver"],
+    "keywords": ["laravel", "authentication", "auth", "polymorhic", "polymorhism", "driver"],
     "homepage": "https://github.com/matthanley/laravel-polyauth",
     "authors": [
         {
             "name": "Matt Hanley",
-            "email": "dev@matthanley.co.uk",
+            "email": "matt@matthanley.co.uk",
             "homepage": "https://github.com/matthanley"
         }
     ],
     "require": {
         "php": "^7.1"
+    },
+    "suggest": {
+        "ramsey/uuid": "Provides generation of UUIDs for unique identifiers"
     },
     "autoload": {
         "psr-4": {
